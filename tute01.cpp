@@ -24,11 +24,11 @@ int main()
 {
     float cm , inches;
 
-    cout << "Enter a length in cm : " ;
+    cout << "Enter a length in cm : " ; // get user input
     cin >> cm;
 
-    inches = cm / 2.54;
-    
-    cout << "Length in inches is :" << inches << endl;
+    inches = cm / 2.54;  //calculation
+
+    cout << "Length in inches is :" << inches << endl; //print the value
     return 0;
 }  
