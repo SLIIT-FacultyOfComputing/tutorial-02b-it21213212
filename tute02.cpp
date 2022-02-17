@@ -20,13 +20,13 @@ int main()
    int salary, netSalary;
    int etype, otHrs, otRate;
 
-   cout << "Enter Employee Type : ";
+   cout << "Enter Employee Type : "; // get user inputs
    cin >> etype;
 
-   cout << "Enter Salary  : ";
+   cout << "Enter Salary  : "; // get user inputs
    cin >> salary;
 
-   cout << "Enter OtHrs : ";
+   cout << "Enter OtHrs : "; // get user inputs
    cin >> otHrs; 
    
    switch (etype) {
@@ -42,9 +42,9 @@ int main()
    }
 
 
-   netSalary = salary + otHrs* otRate;
+   netSalary = salary + otHrs* otRate; // calculation
 
-   cout << "Net Salary is : " << netSalary << endl;
+   cout << "Net Salary is : " << netSalary << endl; // print the value
   
    
 }
