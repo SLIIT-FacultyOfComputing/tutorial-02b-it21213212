@@ -21,5 +21,5 @@ int main()
     }
 
     cout << "Factorial of " << no <<" is :" << fac << endl;  
-    return 0;
+  
 }
